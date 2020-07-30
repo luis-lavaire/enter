@@ -2,7 +2,7 @@
 
 
 test $# -ge 2 || {
-	echo "Usage: ${0##*/} [args] <image> <command> [args]"
+	echo "usage: enter [args] img cmd [args]"
 	exit 1
 }
 
