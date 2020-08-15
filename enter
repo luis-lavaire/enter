@@ -1,8 +1,8 @@
 #! /bin/sh
 
 
-test $# -ge 2 || {
-	echo "usage: enter [args] img cmd [args]"
+test "$1" || {
+	printf "%s\n" "usage: enter img [cmd [args]]"
 	exit 1
 }
 
