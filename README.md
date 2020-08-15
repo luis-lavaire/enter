@@ -1,3 +1,5 @@
-# enter
+## enter
 
-A simple wrapper to run containers.
+a simple script to run containers with access to the xserver:
+
+`enter img [cmd [args]]`
